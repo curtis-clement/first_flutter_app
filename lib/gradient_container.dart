@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:first_flutter_app/styled_text.dart';
+// import 'package:first_flutter_app/styled_text.dart';
 
 const startAlignment = Alignment.topLeft;
 const endAlignment = Alignment.bottomRight;
@@ -19,8 +19,8 @@ class GradientContainer extends StatelessWidget {
           colors: colors,
         ),
       ),
-      child: const Center(
-        child: StyledText('Passing text to StyledText'),
+      child: Center(
+        child: Image.asset('assets/dice-1.png'),
       ),
     );
   }
