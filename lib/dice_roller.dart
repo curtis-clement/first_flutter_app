@@ -15,7 +15,7 @@ class _DiceRollerState extends State<DiceRoller> {
   var currentDicerNumber = 1;
 
   void rollDice() {
-    setState(() => currentDicerNumber = randomizer.nextInt(7) + 1);
+    setState(() => currentDicerNumber = randomizer.nextInt(6) + 1);
   }
 
   @override
